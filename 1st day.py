@@ -32,6 +32,15 @@
 
 
 # same using the if else condition
+batcount=int(input("no of bats"))
+wicketcount=int(input("enter count"))
+if (batcount<=0 or wicketcount<=0):
+    print("Enter a postive number")
+# shoescount=int(input("enter a number"))
+# totalamount=batcount*500 + wicketcount*300+shoescount*400
+# print(totalamount)    
+
+
 
 
 
